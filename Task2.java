@@ -4,9 +4,9 @@ public class Task2 {
         double n = 1000;
         System.out.print(2+", ");
             for (int i = 3; i <= n; i+=2){
-            int j=2;
-            while (j <= i/2 && i % j != 0) j++;
-            if (j==i/2+1) System.out.print(i+", ");
+                int j=2;
+                while (j <= i/2 && i % j != 0) j++;
+                if (j==i/2+1) System.out.print(i+", ");
             }
     }
 }
